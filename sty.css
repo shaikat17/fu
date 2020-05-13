@@ -1,0 +1,46 @@
+*{
+    margin: 10px 10px;
+}
+
+
+.adm{    
+   position: relative;
+}
+
+.adm img{
+    width: 100%;
+    height: auto;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.link{
+    background-color: #34495E;
+    position: absolute;
+    color: #fff;
+    bottom: 4%;
+    right: 0;
+    padding: 2%;
+    
+    
+}
+
+.link a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 4px;
+    transition: all 3s linear;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+
+.link a:visited{
+    color: #f80606;
+}
+
+.link a:active{
+    color: #008D9B;
+}
